@@ -1,0 +1,120 @@
+/* Customs colors and fonts*/
+
+body{
+    background-color: #faf3dd; 
+}
+h1{
+    color: rgb(23,177,186);
+    font-weight: 300;
+    font-family: Helvetica;
+    letter-spacing: 03px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+h2{
+	color:rgb(23,177,186);
+	font-family: Helvetica;
+	font-weight: 300;
+    letter-spacing: 05px;
+    font-size: 25px; 
+}
+
+a{
+ font-family: Avenir Next;
+ color :#0278ae;
+}
+p{
+	color:black;
+	font-family: Avenir Next;
+	font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 15px; 
+}
+
+/*Customs design with class*/
+
+.container {
+    width: 1000px;
+    margin: 40px auto; 
+}
+
+@media(max-width: 900px){
+    .container{
+        width: 700px;
+    }
+
+}
+@media(max-width: 700px){
+    .container{
+        width: 500px;
+    }
+}
+@media(max-width: 600px){
+    .container{
+        width: 400px;
+    }
+}
+
+.box-turquoise{
+    background-color: rgb(23,177,186);
+    padding: 20px;
+    margin: 20px 4px;
+    border-radius: 4px;
+}
+
+.box-white{
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px; 
+    margin: 30px 3px;
+    text-align: center; 
+}
+
+.img-circle {
+    width: 200px;
+    margin: 30px;
+    border-radius: 200px;   
+}
+
+.btn-blue{
+    background-color: #0278ae; 
+    color: white;
+    padding : 15px 20px;
+    border-radius: 4px;
+}
+
+.btn-blue:hover {
+    background-color: #838383 ; 
+    color: white;
+}
+
+.list-inline{
+    list-style: none;
+    padding-left: 0px; 
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i{
+    font-size: 40px;
+    color:#0278ae;
+}
+.list-inline i:hover {
+    font-size: 40px;
+    color: #838383 ;
+}
+
+#introduction p{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
